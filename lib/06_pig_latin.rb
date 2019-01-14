@@ -4,7 +4,7 @@ def translate(sentence)
     word = word.chars
     x = 0
     i = 0
-    while
+    while x != word.length
 
       letter = word[0]
       if letter == letter.upcase && x == 0
@@ -26,9 +26,6 @@ def translate(sentence)
 
       end
       x += 1
-      if x == word.length
-        break
-      end
     end
 
     word.push("ay")
