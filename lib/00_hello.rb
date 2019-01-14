@@ -1,3 +1,4 @@
+# Fonction hello qui retourne "Hello!"
 def hello
 	return "Hello!"
 end
